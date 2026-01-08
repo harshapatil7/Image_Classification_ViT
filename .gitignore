@@ -1,0 +1,15 @@
+# Ignore the datasets
+TrainData/
+TestData/
+train_labels.csv
+sample_submission.csv
+
+# Ignore the trained model and logs
+vit_text_classification_model/
+logs/
+
+# Ignore Python specific files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
